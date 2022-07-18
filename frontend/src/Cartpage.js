@@ -112,7 +112,7 @@ const Cartpage = () => {
             return;
         }
 
-        fetch('http://localhost:3000/api/v1/profile',{
+        fetch('http://18.177.103.189/api/v1/profile',{
             method:'GET'
         })
         .then((res)=>{
