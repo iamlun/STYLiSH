@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CREATE</title>
+    <style>
+        div{text-align: center;font-size: x-large;padding: 10px;}
+        p{text-align: center;font-size: larger;}
+        select{padding: 20px;width: 100px;}
+    </style>
+</head>
+<body>
+    <p>CREATE PRODUCT</p>
+    <!-- enctype="multipart/form-data" -->
+    <form id="create" method="POST" action="http://localhost:8080/api/v1/admin">
+        <div><label for="id">id:</label><input type="text" name="id" id="id"></div>
+        <div><label for="title">title:</label><input type="text" name="title" id="title"></div>
+        <div><label for="price">price:</label><input type="text" name="price" id="price"></div>
+        <div><label for="price">date:</label><input type="text" name="date" id="date"></div>
+        <div><label for="price">info:</label><input type="text" name="info" id="info" placeholder="產地"></div>
+        <div><label for="price">imgURL:</label><input type="text" name="imgURL" id="imgURL"></div>
+        <div><label for="price">size:</label><input type="text" name="size" id="size"></div>
+        <div><label for="price">color:</label><input type="text" name="color" id="color"></div>
+        <div><label for="price">count:</label><input type="text" name="count" id="count"></div>
+        <div>
+            <span>category:</span>
+            <select name="category" id="category">
+                <option disabled></option>
+                <option>women</option>
+                <option>men</option>
+                <option>acc</option>
+            </select>
+        </div>
+        <!-- <div><label for="image">image:</label><input type="file" name="image"></div> -->
+        <div id="sub"><button type="submit">submit</div>
+    </form>
+</body>
+</html>

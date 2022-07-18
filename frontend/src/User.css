@@ -1,0 +1,62 @@
+.loginPage_wrapper{
+    margin-top: 50px;
+    margin-left: 400px;
+    font-size: 20px;
+}
+.loginPage_title{
+    letter-spacing: 3px;
+    width: 430px;
+    border-bottom: 1px solid #979797;
+    cursor: pointer;
+}
+.loginPage_title:hover{
+    color: rgb(22, 148, 140);
+}
+.loginPage_form{
+    letter-spacing: 1px;
+    width: 800px;
+    
+}
+.loginPage_form-input{
+    border-radius: 8px;
+    border: solid 1px #979797;
+    width: 300px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.loginPage_form-input--password{
+    border-radius: 8px;
+    border: solid 1px #979797;
+    width: 300px;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.loginPage_form-loginbtn{
+    width: 120px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 300px;
+    font-size: 16px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    color: azure;
+    border-radius: 5px;
+    border: solid 1px #979797;
+    background-color: black;
+
+}
+.loginPage_logoutbtn{
+    width: 120px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 300px;
+    font-size: 16px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    color: azure;
+    border-radius: 5px;
+    border: solid 1px #979797;
+    background-color: black;
+}
