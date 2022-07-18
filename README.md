@@ -15,3 +15,6 @@
 - Key Concepts
   - MVC design pattern
   - RESTful API
+  - Payment
+  - JWT
+  - Cookies
