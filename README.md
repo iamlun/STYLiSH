@@ -11,4 +11,7 @@
 - Database
   - MySQL
 - Cloud Service
-  -AWS EC2
+  - AWS EC2
+- Key Concepts
+  - MVC design pattern
+  - RESTful API
