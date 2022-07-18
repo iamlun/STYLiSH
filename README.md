@@ -5,6 +5,10 @@
 
 # :rocket: Techniques
 
+- Front-End
+  - React
+  - JavaScripts
+  - HTML/CSS
 - Back-End
   - Node.js
   - Express.js
