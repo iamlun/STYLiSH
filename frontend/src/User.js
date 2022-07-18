@@ -16,7 +16,7 @@ const User = () => {
 
 
     useEffect(()=>{
-        fetch('http://localhost:8080/api/v1/profile',{
+        fetch('http://localhost:3000/api/v1/profile',{
             method:'GET'
         })
         .then((res)=>{
@@ -35,7 +35,7 @@ const User = () => {
         e.preventDefault();
         const user={name, email,password };
         
-        fetch('http://localhost:8080/api/v1/login',{ 
+        fetch('http://localhost:3000/api/v1/login',{ 
             method:'POST',
             headers: { 'Content-Type': 'application/json',
                         'Accept':'application/json, text/plain, */* ' },
@@ -56,7 +56,7 @@ const User = () => {
     }
     const handlelogout=()=>{
 
-        fetch('http://localhost:8080/api/v1/logout',{
+        fetch('http://localhost:3000/api/v1/logout',{
             method:'GET'
         })
         .then((res)=>{
@@ -72,7 +72,7 @@ const User = () => {
     const handelSignup=(e)=>{
         e.preventDefault();
         const user={name, email,password };
-        fetch('http://localhost:8080/api/v1/signup',{ 
+        fetch('http://localhost:3000/api/v1/signup',{ 
             method:'POST',
             headers: { 'Content-Type': 'application/json',
                         'Accept':'application/json, text/plain, */* ' },
