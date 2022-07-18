@@ -1,6 +1,6 @@
 # STYLiSH
 
-> **an e-commerce website.  [Link >>](http://http://18.177.103.189/) **
+> **an e-commerce website.  [Link >>](http://http://18.177.103.189/)**
 
 
 # Techniques
