@@ -1,6 +1,6 @@
 # :rocket: STYLiSH
 
-> **an e-commerce website.  [Link >>](http://18.177.103.189/)**
+> **An e-commerce website that implements the complete process for users from logging in to placing orders and paying**
 
 
 # :rocket: Techniques
@@ -19,6 +19,6 @@
 - Key Concepts
   - MVC design pattern
   - RESTful API
-  - Payment
+  - Payment(TapPay)
   - JWT
   - Cookies
