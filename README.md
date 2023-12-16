@@ -1,6 +1,6 @@
 # :rocket: STYLiSH
 
-> **An e-commerce website that implements the complete process for users from logging in to placing orders and paying**
+> **An e-commerce website that implements the complete process for users from logging in to placing orders and paying.**
 
 ![image](https://github.com/iamlun/STYLiSH/blob/main/stylish-demo.png)
 
